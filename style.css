@@ -1,0 +1,15 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace; */
+
+.text h1 {
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: -3.5%;
+  line-height: 71, 09px;
+  font-style: normal;
+}

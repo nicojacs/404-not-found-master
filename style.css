@@ -2,14 +2,129 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Space Mono', monospace; */
 
-.text h1 {
+h1 {
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -8%;
+  padding: 20px 0 0 24px;
 }
 
-h1 {
-  font-family: "Space Mono", monospace;
-  font-weight: bold;
+.imagen {
+  text-align: center;
+}
+
+img {
+  width: 286.83px;
+  height: 220.35px;
+  padding-top: 64px;
+}
+
+h2 {
+  font-family: Space Mono;
+  width: 350px;
   font-size: 48px;
-  letter-spacing: -3.5%;
-  line-height: 71, 09px;
+  font-weight: bold;
+  letter-spacing: -0.035em;
+  line-height: 71px;
   font-style: normal;
+  color: #333333;
+  padding: 0 1px 0 24px;
+}
+
+section p {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 0 24px 66px 23px;
+  color: #4f4f4f;
+}
+
+section a {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 24px 43px 23px 43px;
+  text-decoration: none;
+}
+
+.texta {
+  padding-left: 24px;
+}
+
+footer p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  color: #bdbdbd;
+  padding: 114px 0 24px 0;
+}
+
+footer a {
+  color: #bdbdbd;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    padding: 40px 0 0 77px;
+    margin: 0;
+  }
+
+  img {
+    width: 539.22px;
+    height: 414.25px;
+    padding-left: 77px;
+    padding-right: 100px;
+  }
+
+  h2 {
+    font-size: 64px;
+    line-height: 95px;
+    width: 586px;
+    padding: 0;
+    margin: 0;
+  }
+
+  section p {
+    font-size: 24px;
+    line-height: 35.54px;
+    width: 381px;
+    height: 108px;
+    letter-spacing: -0.035em;
+    padding: 36px 0 0 0;
+    margin: 0;
+  }
+
+  .texta {
+    padding: 64px 0 0 0;
+  }
+  footer p {
+    padding: 308px 0 24px 0;
+    margin: 0;
+  }
 }
